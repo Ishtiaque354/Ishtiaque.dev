@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishtiaque Ahmed | AI Researcher & Educator</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <div id="audioControl" class="audio-control paused">🎵</div>
+    <audio id="bgMusic" loop>
+        <source src="music\smith-solace-edm-mix-141706.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="canvas-container"></div>
+
+    <nav>
+        <div class="logo">Ishtiaque<span>.Dev</span></div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Researcher & Educator</span>
+                <h1>Advancing AI through <br> 3D Reconstruction & <br> Deep Learning.</h1>
+                <p>Hi, I'm <strong>Ishtiaque Ahmed</strong>. A Computer Science researcher focused on Health Informatics, Point Cloud Generation, and empowering the next generation of engineers.</p>
+                
+                <div class="cta-group">
+                    <a href="#research" class="btn">View Publications <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://github.com/Ishtiaque354" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="card">
+                <h2 class="section-title">About Me</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-muted);">
+                    I am a dedicated educator and researcher currently pursuing my BSc in CSE at Daffodil International University (CGPA 3.89). My passion lies in investigating innovations in artificial intelligence, specifically in <strong>3D Reconstruction</strong> and <strong>Medical Imaging</strong>. Beyond research, I am the Founder of <em>Q-Bit Learning</em> and a content creator making tech education accessible in Bangla.
+                </p>
+                <div class="skills-container" style="margin-top: 2rem;">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">PyTorch</span>
+                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">Open3D</span>
+                    <span class="skill-tag">OpenCV</span>
+                    <span class="skill-tag">Data Mining</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-role">Researcher</div>
+                    <div class="timeline-org">Health Informatics Research Lab (HIRL) | Sep 2023 - Present</div>
+                    <p style="color: var(--text-muted);">Advancing 3D reconstruction using Deep Learning. Focusing on depth estimation, point cloud generation, and mesh modeling for medical applications.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-role">Teaching Assistant</div>
+                    <div class="timeline-org">Daffodil International University | Feb 2025 - Present</div>
+                    <p style="color: var(--text-muted);">Assisting in Algorithms and MSc-level Machine Learning Techniques courses. Mentoring students for thesis defense.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-role">Founder & Co-CEO</div>
+                    <div class="timeline-org">Q-Bit Learning | May 2023 - Present</div>
+                    <p style="color: var(--text-muted);">Leading educational innovation through adaptive teaching and managing project development.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="container">
+            <h2 class="section-title">Selected Research</h2>
+            <div class="research-grid">
+                
+                <div class="card">
+                    <div class="pub-year">2025 - IEEE ECCE</div>
+                    <h3 style="margin: 1rem 0;">3D Reconstruction of Colonic Polyps</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">A Methodology for Improved Visualization and Analysis. Focuses on improving medical diagnostics through advanced 3D modeling.</p>
+                </div>
+
+                <div class="card">
+                    <div class="pub-year">2025 - ICECAI</div>
+                    <h3 style="margin: 1rem 0;">Bangla Sentiment Analysis</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">A Comparative Study of Transformer-Based Models and Machine Learning Techniques for Enhancing Bangla Sentiment Analysis.</p>
+                </div>
+
+                <div class="card" style="border-color: var(--accent);">
+                    <div class="pub-year">Research Grant - ICCCAD</div>
+                    <h3 style="margin: 1rem 0;">DhuliX Project</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Funded by ICCCAD. Strengthening Bangladesh's air quality monitoring through real-time mobile-based data collection.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Technical Projects</h2>
+            <div class="research-grid">
+                
+                <a href="https://github.com/Ishtiaque354/Brain-Tumor-Classification-DL" target="_blank" class="card">
+                    <h3>Brain Tumor Classification</h3>
+                    <p style="margin-top: 1rem; color: var(--text-muted);">Custom CNN architecture with transfer learning for MRI image analysis. Rigorously evaluated with hyperparameter tuning.</p>
+                    <span style="display: block; margin-top: 1rem; color: var(--accent);">View Code &rarr;</span>
+                </a>
+
+                <a href="https://github.com/Ishtiaque354/Diabetics-Prediction-Using-Machine-Learning/blob/main/diabetics prediction.ipynb" target="_blank" class="card">
+                    <h3>Diabetes Prediction ML</h3>
+                    <p style="margin-top: 1rem; color: var(--text-muted);">End-to-end pipeline using Pima Indians dataset. Features custom preprocessing and optimization for real-world deployment.</p>
+                    <span style="display: block; margin-top: 1rem; color: var(--accent);">View Code &rarr;</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="margin-bottom: 4rem;">
+        <div class="container">
+            <div class="card" style="text-align: center; padding: 4rem;">
+                <h2>Let's Collaborate</h2>
+                <p style="margin: 1.5rem 0; color: var(--text-muted);">
+                    Interested in Deep Learning, 3D Reconstruction, or Educational Outreach?
+                </p>
+                <a href="mailto:ishtiaque966@gmail.com" class="btn">
+                    <i class="fas fa-envelope"></i> ishtiaque966@gmail.com
+                </a>
+                <div style="margin-top: 2rem; font-size: 0.9rem; color: var(--text-muted);">
+                    <i class="fas fa-map-marker-alt"></i> Ashulia, Dhaka, Bangladesh
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://ishtiaque354.github.io/Ishtiaque-Portfolio/"><i class="fas fa-globe"></i></a>
+            <a href="https://github.com/Ishtiaque354"><i class="fab fa-github"></i></a>
+            <a href="mailto:ishtiaque966@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://youtu.be/Bq4P6tiAHwc?si=pxqUJXhn4el4qifs"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p style="margin-top: 1rem; color: #555; font-size: 0.8rem;">&copy; 2025 Ishtiaque Ahmed. Built with Three.js</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <script>
+        // --- AUDIO CONTROL ---
+        const audio = document.getElementById('bgMusic');
+        const audioBtn = document.getElementById('audioControl');
+        audioBtn.addEventListener('click', () => {
+            if(audio.paused) {
+                audio.play().catch(e => console.log("Interaction needed"));
+                audioBtn.classList.remove('paused');
+                audioBtn.innerHTML = "🔊";
+            } else {
+                audio.pause();
+                audioBtn.classList.add('paused');
+                audioBtn.innerHTML = "🎵";
+            }
+        });
+
+        // --- THREE.JS: SPIRAL GALAXY ENGINE ---
+        const scene = new THREE.Scene();
+        // Dark fog for depth (Simulates deep space)
+        scene.fog = new THREE.FogExp2(0x050505, 0.02);
+
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+        
+        const container = document.getElementById('canvas-container');
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        container.appendChild(renderer.domElement);
+
+        // --- HELPERS ---
+        function createTextTexture(text, color) {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            const fontSize = 48; 
+            ctx.font = `Bold ${fontSize}px "Space Grotesk", Arial`;
+            const width = ctx.measureText(text).width;
+            canvas.width = width + 20;
+            canvas.height = fontSize + 20;
+
+            ctx.fillStyle = color;
+            ctx.font = `Bold ${fontSize}px "Space Grotesk", Arial`;
+            ctx.textBaseline = 'middle';
+            ctx.fillText(text, 10, canvas.height/2);
+
+            return new THREE.CanvasTexture(canvas);
+        }
+
+        // --- GALAXY CONFIGURATION ---
+        const galaxyGroup = new THREE.Group();
+        scene.add(galaxyGroup);
+
+        // 1. THE WORDS (Text Stars)
+        const words = [
+            "AI", "Deep Learning", "Python", "3D", "Vision", "Research",
+            "Point Cloud", "Mesh", "Neural", "Tensor", "Torch", "OpenCV",
+            "Data", "Algorithm", "Model", "Loss", "Optimization", "Matrix",
+            "0", "1", "π", "Σ", "∫", "∇", "∞"
+        ];
+
+        const textParticlesCount = 150;
+        const spiralRadius = 30;
+        const branches = 3;
+        const spinFactor = 4;
+        
+        for(let i=0; i<textParticlesCount; i++) {
+            const word = words[Math.floor(Math.random() * words.length)];
+            
+            // Color mix: mostly white/gray, some Accent Green
+            const isAccent = Math.random() > 0.7; 
+            const color = isAccent ? "#00ffa3" : "#cccccc";
+
+            const texture = createTextTexture(word, color);
+            const material = new THREE.SpriteMaterial({
+                map: texture,
+                transparent: true,
+                opacity: 0.8,
+                depthWrite: false,
+                blending: THREE.AdditiveBlending
+            });
+
+            const sprite = new THREE.Sprite(material);
+
+            // SPIRAL MATH
+            const radius = Math.random() * spiralRadius;
+            const branchAngle = (i % branches) / branches * Math.PI * 2;
+            const spinAngle = radius * spinFactor;
+            
+            // Randomness (Spread)
+            const randomX = Math.pow(Math.random(), 3) * (Math.random() < 0.5 ? 1 : -1) * 2;
+            const randomY = Math.pow(Math.random(), 3) * (Math.random() < 0.5 ? 1 : -1) * 2;
+            const randomZ = Math.pow(Math.random(), 3) * (Math.random() < 0.5 ? 1 : -1) * 2;
+
+            const x = Math.cos(branchAngle + spinAngle) * radius + randomX;
+            const y = randomY; // Flatten galaxy slightly
+            const z = Math.sin(branchAngle + spinAngle) * radius + randomZ;
+
+            sprite.position.set(x, y, z);
+
+            // Scale down to look like "Stars"
+            const scale = 0.2 + Math.random() * 0.3; 
+            sprite.scale.set(scale * (texture.image.width/texture.image.height), scale, 1);
+
+            galaxyGroup.add(sprite);
+        }
+
+        // 2. THE STARS (Background Dust)
+        const starGeo = new THREE.BufferGeometry();
+        const starCount = 2000;
+        const starPos = new Float32Array(starCount * 3);
+        const starColors = new Float32Array(starCount * 3);
+
+        const colorInside = new THREE.Color('#ffffff');
+        const colorOutside = new THREE.Color('#00ffa3');
+
+        for(let i=0; i<starCount; i++) {
+            const i3 = i*3;
+            const radius = Math.random() * spiralRadius;
+            const branchAngle = (i % branches) / branches * Math.PI * 2;
+            const spinAngle = radius * spinFactor;
+
+            const randomX = (Math.random() - 0.5) * 3;
+            const randomY = (Math.random() - 0.5) * 3;
+            const randomZ = (Math.random() - 0.5) * 3;
+
+            starPos[i3] = Math.cos(branchAngle + spinAngle) * radius + randomX;
+            starPos[i3+1] = randomY;
+            starPos[i3+2] = Math.sin(branchAngle + spinAngle) * radius + randomZ;
+
+            // Color mixing
+            const mixedColor = colorInside.clone();
+            mixedColor.lerp(colorOutside, radius / spiralRadius);
+
+            starColors[i3] = mixedColor.r;
+            starColors[i3+1] = mixedColor.g;
+            starColors[i3+2] = mixedColor.b;
+        }
+
+        starGeo.setAttribute('position', new THREE.BufferAttribute(starPos, 3));
+        starGeo.setAttribute('color', new THREE.BufferAttribute(starColors, 3));
+
+        const starMaterial = new THREE.PointsMaterial({
+            size: 0.05,
+            vertexColors: true,
+            depthWrite: false,
+            blending: THREE.AdditiveBlending
+        });
+
+        const starSystem = new THREE.Points(starGeo, starMaterial);
+        galaxyGroup.add(starSystem);
+
+        // --- INTERACTION STATE ---
+        camera.position.z = 20;
+        camera.position.y = 10;
+        camera.lookAt(0,0,0);
+
+        let mouseX = 0;
+        let mouseY = 0;
+        let scrollY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = (e.clientX - window.innerWidth/2) * 0.0005;
+            mouseY = (e.clientY - window.innerHeight/2) * 0.0005;
+        });
+
+        window.addEventListener('scroll', () => {
+            scrollY = window.scrollY;
+        });
+
+        // --- ANIMATION LOOP ---
+        const clock = new THREE.Clock();
+
+        function animate() {
+            const elapsed = clock.getElapsedTime();
+
+            // Rotate Galaxy
+            galaxyGroup.rotation.y = elapsed * 0.05;
+
+            // Mouse Parallax (Tilt)
+            galaxyGroup.rotation.x = mouseY * 0.5;
+            galaxyGroup.rotation.z = mouseX * 0.5;
+
+            // Scroll Fly-Through
+            // Map scroll Y to Camera Z. 
+            // Start at Z=20, fly into Z=5
+            const targetZ = 20 - (scrollY * 0.015);
+            // Clamp minimum Z so we don't pass through completely
+            const clampedZ = Math.max(5, targetZ);
+            
+            // Smooth lerp
+            camera.position.z += (clampedZ - camera.position.z) * 0.05;
+
+            renderer.render(scene, camera);
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+        // Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    </script>
+</body>
+</html>
